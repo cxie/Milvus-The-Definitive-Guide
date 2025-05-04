@@ -3,8 +3,9 @@
 
 title: "Milvus : The Definitive Guide"
 author: Charles Xie
-copyright: "2025, Charles Xie. All rights reserved."
 logo: milvus-logo.png
+copyright: "2025 Charles Xie. All rights reserved"
+exclude_patterns: ["README.md"]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -14,7 +15,7 @@ execute:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname: book.tex
+    targetname: milvus-the-definitive-guide.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -22,8 +23,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/cxie/Milvus-The-Definitive-Guide # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/cxie/Milvus-The-Definitive-Guide  # Online location of your book
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
@@ -31,5 +31,5 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  baseurl: https://cxie.github.io/Milvus-The-Definitive-Guide
   extra_footer: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
-
